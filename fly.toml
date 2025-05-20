@@ -1,6 +1,2 @@
-app = "projeto-nuvem-grupo"
-primary_region = "sao"
-
-[http_service]
-  internal_port = 3000
-  force_https = true
+[build]
+  builder = "paketo-buildpacks/builder:base"
